@@ -13,5 +13,6 @@ described by RFC 4627."
 HOMEPAGE="http://live.gnome.org/JsonGlib"
 
 CYGCONF_ARGS="--disable-static"
+MAKEOPTS+=" bin_PROGRAMS= man_MANS= "
 
 DIFF_EXCLUDES=".gitignore"
